@@ -103,9 +103,9 @@ a {
   color: var(--white-color);
 }
 
-.button:hover,
+/* .button:hover,
 .button:focus {
-}
+color: #000000;} */
 /* КІНЕЦЬ БАНЕРА */
 
 /* ОСОБЛИВОСТІ */
