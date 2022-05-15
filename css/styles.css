@@ -1,0 +1,226 @@
+:root {
+  --text-color: #757575;
+  --h-color: #212121;
+  --akcent-color: #2196f3;
+  --white-color: #ffffff;
+
+  --bg-nav: #ffffff;
+  --bg-img: #eeeeee;
+  --bg-hero: #2f303a;
+
+  --button-color: #f5f4fa;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.hiden {
+  display: none;
+}
+
+.current {
+  color: var(--akcent-color);
+}
+/* ХЕДЕР */
+/* ЛОГО */
+.logo-blue {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--akcent-color);
+}
+.logo-black {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+}
+.logo-white {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--white-color);
+}
+/* КІНЕЦЬ ЛОГО */
+
+.header {
+  background-color: var(--white-color);
+}
+
+.nav-text {
+  color: var(--h-color);
+}
+
+.nav-text:hover,
+.nav-text:focus {
+  color: var(--akcent-color);
+}
+
+.nav-contact {
+  color: var(--text-color);
+}
+/* КІНЕЦЬ ХЕДЕРА */
+
+/* БАНЕР */
+.main-baner {
+  background-color: var(--bg-hero);
+}
+
+.baner-text {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--white-color);
+}
+
+.button {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--akcent-color);
+  color: var(--white-color);
+}
+
+.button:hover,
+.button:focus {
+}
+/* КІНЕЦЬ БАНЕРА */
+
+/* ОСОБЛИВОСТІ */
+.specifics {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--h-color);
+}
+
+.specifics-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+/* КІНЕЦЬ ОСОБЛИВОСТІ */
+
+/* ЧИМ ЗАЙМАЄМОСЬ */
+.works {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--h-color);
+}
+
+
+/* КІНЕЦЬ ЧИМ ЗАЙМАЄМОСЬ */
+/* КОМАНДА */
+.teem {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--h-color);
+}
+
+.member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--h-color);
+}
+
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.about-us {
+  background-color: var(--button-color);
+}
+/* КІНЕЦЬ КОМАНДИ */
+
+/* ФУТЕР */
+.footer {
+  background-color: var(--bg-hero);
+}
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+.contacts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* КІНЕЦЬ ФУТЕРА */
+
+
+
+
+
+/* ДРУГА СТОРІНКА */
+.btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+  cursor: pointer;
+  background-color:var(--button-color);
+  color: var(--h-color);
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--akcent-color);
+  color: var(--white-color);
+}
+
+.example {
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: var(--h-color);}
+
+.direction {
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+}
